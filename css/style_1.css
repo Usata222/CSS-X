@@ -1,0 +1,263 @@
+body{
+	background-color: silver;
+	color:black;
+
+	font-family: serif;
+	font-size:18px;
+	font-weight:bold;
+	line-height:1.3em;
+
+}
+
+a{
+	color:black;
+}
+
+a:hover{
+	color:blue;
+}
+a:active{
+    	color:red ;
+}
+
+
+.clr{
+	clear:both;
+}
+
+.all{
+	width:90%;	
+    margin: auto;
+}
+
+.dim{ 
+	background-color:#333;
+	color: orange;
+
+	margin: unset;
+	padding-bottom: : 2px;
+	padding-top: 10px;
+	text-align:center;
+	width:none;	
+	margin-bottom: 0px;
+
+   
+}
+
+
+.dim a{
+	text-decoration: none;
+}
+
+
+.dim ul{
+	background-color:grey;
+	margin-top: 0px;
+	text-align: left;
+}
+
+.dim li{
+	color: white;
+	list-style:none;
+	font-weight: normal;
+	display:inline;
+	padding-right: 15px;
+	text-decoration: none;
+}
+
+
+.dre{
+	background-color: brown;
+	color: black;
+    
+	margin: 20px solid;
+	padding: 20px;
+	border:5px black solid ;
+	border-radius: 10px;
+	/*border-style:dashed;*/
+
+    width:90%;	
+    margin: auto;
+
+}
+
+.go{
+	text-decoration: underline;
+	margin-left:80px;
+}
+
+.dot{
+	background-color:unset;
+	color: black;
+
+	margin: 20px;
+	padding: 20px;
+	/*border:2px black solid;
+	border-radius: 60px;*/
+
+
+}
+.box3{
+	background-color: unset;
+	color: black;
+    
+    text-decoration: underline;
+
+    margin: 10px;
+    padding: 15px;
+    border: 2px black solid;
+    border-style: dotted;
+    border-radius: 50px;
+    
+}
+
+.box3 h2{
+	text-align:center;
+	}
+
+.box3 ul{
+	color: black;
+	list-style-position:inherit;
+	list-style:square;
+	width: 6px;
+}
+
+.mad{
+	text-align: center;
+    background-color: #333;
+	color:orange;
+	border-radius: 14px;
+	width: 40%;
+	margin: auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border: 2px solid black;
+
+	}
+
+.run{
+	border: 1px solid black;
+	padding: 20px 25px;
+	border-radius: 5px;
+}
+
+
+.run label{
+	display: block;
+	font-weight:bold;
+	color: white;
+	background: #333;
+	width: 20%;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-bottom: 5px;
+}
+
+ .run input[type="text"], .run textarea{
+	width: 60%;
+	padding: 4px;
+
+}
+
+.run input[type="submit"]{
+    background-color:brown;
+	color:white;
+	padding: 20px 90px;
+	margin-left: 200px;
+	border: none;
+	border-radius: 3px;
+	width: 30%;
+}
+
+.lord{
+	text-align: center;
+	font-size: 33px;
+	text-decoration: underline;
+
+} 
+
+.kit{
+	float: left;
+	width: 33%;
+	border: 1px solid black;
+}
+
+.kit h3{ 
+	text-align: center;
+	border-bottom: 1px solid black;
+ }
+
+ .rag{
+ 	text-align: center;
+ 	text-decoration-line: underline;
+ }
+
+ .rat li:nth-child(odd){
+  	  background: grey;
+  }
+
+.bum div{
+	background: grey;
+	padding: 1em;
+	display: grid;
+ }
+
+ .bum div:nth-child(odd){
+ 	background-color: navy;
+ }
+
+ .bum{
+ 	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(70px, auto);
+    justify-items: stretch;
+    align-items:stretch;
+ }
+
+ .box1{
+ 	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);
+ 	grid-gap: 1em;
+ }
+
+ .box1 div{
+ 	border: 1px solid black;
+ 	background:navy;
+ }
+
+ .box2{
+ 	grid-column: 2/4;
+    grid-row: 1/2;
+    align-self:stretch;
+ }
+
+ .random{
+ 	background: navy;
+ 	text-align: center;
+ 	padding-top:1px;
+ 	
+ }
+
+ .dom li{
+ 	display:inline;
+ 	list-style: none;
+ 	padding-right: 20px;
+ 	padding-left: 0px;
+ }
+
+ .dom{
+ 	background: red;
+ 	padding-top:0px ;
+ 	padding-left: 1px;
+ }
+
+ .dom a{
+ 	color: white;
+ 	text-decoration: none;
+ }
+ .man{
+ 	background: navy;
+ }
